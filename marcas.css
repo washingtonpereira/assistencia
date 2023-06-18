@@ -4,8 +4,8 @@ Body{
 }
 
 img{
-    width: 340px;
-    height: 148px;
+    width: 320px;
+    height: 100px;
 }
 
 .container {
@@ -35,13 +35,32 @@ img{
 
 .motorola_image{
     margin-left: 50px;
-    
+    width: 320px;
+    height: 100px;
 }
 .asus_image{
     margin-top: 35px;
     
+    
 }
 
 .xaomi_image{
+    display: flex;
     margin-top: 30px;
+    justify-content: center;
+}
+
+.lg_image{
+    margin-top:  30px;
+    margin-bottom: 20px;
+    margin-left: 47px;
+
+}
+
+.iphone_image{
+    margin-top:15px;
+}
+
+.asus_image{
+    margin-right: 40px;
 }
