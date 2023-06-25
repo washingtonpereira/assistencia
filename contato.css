@@ -13,7 +13,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 70%;
   height: 100vh;
   
 }
@@ -37,14 +37,14 @@ body {
 }
 
 .form {
-  width: 50%;
+  width: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #3a3737;
-  padding: 10rem;
-  
+  padding: 8rem;
+  opacity: 0.5;
 }
 
 label {
