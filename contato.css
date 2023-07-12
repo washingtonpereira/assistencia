@@ -1,23 +1,18 @@
-body{
-  
+body {
   overflow: hidden;
   margin: 0;
- 
 }
 
-.imageprincipal  >img{
- 
+.imageprincipal > img {
   width: 100vw;
   height: 100vh;
-  
 }
 nav {
   display: flex;
   justify-content: space-around;
   background-color: rgb(20, 17, 17);
   align-items: center;
- 
- }
+}
 
 ul {
   display: flex;
@@ -25,7 +20,7 @@ ul {
   gap: 12px;
 }
 
-.rodas{
+.rodas {
   display: flex;
   background-color: rgb(20, 17, 17);
   margin-top: -10px;
@@ -36,14 +31,14 @@ ul {
   border-radius: solid 3px;
   color: aliceblue;
   position: fixed center;
- }
+}
 
-a{
+a {
   text-decoration: none;
   color: aliceblue;
 }
 
-a:hover{
+a:hover {
   color: rgb(91, 187, 91);
   transform: scale(1.1);
 }
@@ -52,5 +47,4 @@ a:hover{
   ul {
     display: flex;
   }
-  
 }
