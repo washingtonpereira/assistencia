@@ -42,9 +42,9 @@ ul {
   color: aliceblue;
   position: fixed center;
 
-  
-  
+    
 }
+
 
 a{
   text-decoration: none;
@@ -55,6 +55,7 @@ a:hover{
   color: rgb(91, 187, 91);
   transform: scale(1.1);
 }
+
 
 @media (max-width: 850px) {
   ul {
