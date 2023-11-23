@@ -20,6 +20,12 @@ ul {
   gap: 12px;
 }
 
+aside>form {
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
 .rodas {
   display: flex;
   background-color: rgb(20, 17, 17);
@@ -37,6 +43,10 @@ a {
   text-decoration: none;
   color: aliceblue;
 }
+
+
+
+
 
 a:hover {
   color: rgb(91, 187, 91);
