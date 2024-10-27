@@ -5,36 +5,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="Img/icons8-smartphone-94.png" type="image/x-icon">
-  <link rel="stylesheet" href="contato.css">
+  
   <title>Contato</title>
+  <link rel="stylesheet" href="css/contato.css">
+  
 </head>
 
 <body>
   <header>
     <nav>
-      <ul>
-        <li><a href="index.html">Homepage</a></li>
-        <li><a href="marcas.html">Marcas</a></li>
-        <li><a href="sobre.html">Sobre nos</a></li>
-        <li><a href="Contato.html">Contato</a></li>
-      </ul>
+        <div class="logo">
+                  <a href="index.html"><img src="Img/Sistema-x-2.png" alt="imagem-logo"></a>
+                  
+                  <div class="logo-text">
+                      <a href="index.html">
+                      <p>WP</p>
+                      <p>Assistência</p>
+                      <p>Tecnológica</p>
+                     </a>
+                 </div> 
+        </div>
+        
+            <ul>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="marcas.html">Marcas</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="servicos.html">Serviços</a></li>
+            </ul>
     </nav>
   </header>
   <main>
-    <div class="imageprincipal">
-      <img src="Img/iphone-3572477_1280.jpg" alt="Smartphone">
-    </div>
-    <aside>
-      <form action="" method="post">
-        <label>Nome</label>
-        <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
-        <label>Email</label>
-        <input type="email" name="email" placeholder="Digite seu email" autocomplete="off">
-        <label>Mensagem</label>
-        <textarea name="Message" cols="30" rows="10" placeholder="Digite a sua mensagem"></textarea>
-        <button type="submit">Enviar</button>
-      </form>
-    </aside>
+
+      <div class="contact-container">
+        <div class="contact-one">
+
+          <div class="location">
+            <img src="#" alt="icone-de-localização" title="localização">
+            <p>Nosso escritório principal</p>
+            <address>
+              Rua São Domingues Cerqueira da Matta , 34 lote 22
+            </address>
+          </div>
+          <div class="phone">
+            <img src="#" alt="icone-de-telefone" title="telefone">
+            <p>Número de telefone</p>
+            (xx)-xxxx-xxxx
+          </div>
+
+        </div>
+
+        <div class="contact-two">
+             <div class="whatsapp"></div>
+             <div class="email"></div>
+
+        </div>
+      </div>
+     
 
   </main>
   <footer>
