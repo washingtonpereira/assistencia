@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(20, 17, 17);
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  margin-top: 20px;
+  gap:10px;
+}
+
+
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 20px;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  color: rgb(49, 79, 228);
+  transition: 0.5s;
+}
+
+.contact-container {
+  margin-top: 200px;
+
+  background-color:bisque;
+  width: 600px;
+  height: 500px;
+}
+
+.contact-one {  
+  margin: auto;
+  display: flex;
+  background-color: brown;
+  width: 50%;
+  height: 50%;
+  gap: 5px;
+}
+
+.location {
+  
+  margin-top: 35px;
+  background-color: white;
+  width: 50%;
+  height: 85%;
+}
+
+
+.phone {
+  margin-top: 35px;
+  background-color: white;
+  width: 50%;
+  height: 85%;
+}
+
+.contact-two { 
+  margin: auto; 
+  margin-top: 5px;
+  display: flex;
+  background-color: brown;
+  width: 50%;
+  height: 50%;
+  gap: 5px;
+}
+
+
+.whatsapp {
+  background-color: white;
+  width: 50%;
+  height: 75%;
+}
+
+
+.email {
+  background-color: white;
+  width: 50%;
+  height: 75%;
+} 
+
+
+
+.rodas {
+  display: flex;
+  background-color: rgb(20, 17, 17);
+  margin-top: -10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 500px;
+  border-radius: solid 3px;
+  color: aliceblue;
+  position: fixed center;
+}
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 850px) {
+  ul {
+    display: flex;
+  }
+} */
