@@ -58,16 +58,14 @@ ul {
   
 } 
 
- .login , .cadastrar{
-  border: 3px solid  rgb(49, 79, 228);
-  background-color:  rgb(49, 79, 228);
+  .cadastrar a{
+  background-color: rgb(49, 79, 228);
+  border: 2px solid rgb(49, 79, 228) ;
   border-radius:35px;
- 
+  padding: 10px;
+  margin-bottom: 2px;
  } 
-.cadastrar:hover {
- background-color: black;
- transition: 0.5s;
-} 
+
 
 .login:hover {
  background-color: black;
@@ -75,12 +73,13 @@ ul {
 }  
 
 .cadastrar a:hover{
-  color: yellow;
+  color: rgb(49, 79, 228);
+  background-color: black;
   transition: 0.5s;
 }
 
 .login a:hover{
-  color: yellow;
+  color:   rgb(49, 79, 228);
   transition: 0.5s;
 }
 
