@@ -39,10 +39,16 @@ a:hover {
 
 .contact-container {
   margin-top: 200px;
-
   background-color:bisque;
-  width: 600px;
+  width: 800px;
   height: 500px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-container img {
+  margin-top: 20px;
+  
 }
 
 .contact-one {  
@@ -51,7 +57,21 @@ a:hover {
   background-color: brown;
   width: 50%;
   height: 50%;
-  gap: 5px;
+  gap: 10px;
+}
+
+.contact-one p {  
+ margin-top: 10px;
+}
+
+.contact-two { 
+  margin: auto; 
+  margin-top: 5px;
+  display: flex;
+  background-color: brown;
+  width: 50%;
+  height: 50%;
+  gap: 12px;
 }
 
 .location {
@@ -70,28 +90,20 @@ a:hover {
   height: 85%;
 }
 
-.contact-two { 
-  margin: auto; 
-  margin-top: 5px;
-  display: flex;
-  background-color: brown;
-  width: 50%;
-  height: 50%;
-  gap: 5px;
-}
+
 
 
 .whatsapp {
   background-color: white;
   width: 50%;
-  height: 75%;
+  height: 85%;
 }
 
 
 .email {
   background-color: white;
   width: 50%;
-  height: 75%;
+  height: 85%;
 } 
 
 
