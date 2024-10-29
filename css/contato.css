@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+main{
+  display: flex;
+ 
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -27,27 +32,43 @@ ul {
   gap: 30px;
 }
 
-a {
+ nav a {
   text-decoration: none;
-  color: aliceblue;
+  color: white;
 }
 
-a:hover {
+nav ul li a:hover {
   color: rgb(49, 79, 228);
   transition: 0.5s;
 }
 
+
+
 .contact-container {
   margin-top: 200px;
   background-color:bisque;
-  width: 800px;
-  height: 500px;
+  /* width: 400px;
+  height: 250px; */
   text-align: center;
   font-weight: bold;
 }
 
+.register-contact {
+  text-align: center;
+  background-color: aqua;
+  width: 500px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 180px;
+  
+}
+
+input {
+  
+}
+
 .contact-container img {
-  margin-top: 20px;
+  margin-top: 15px;
   
 }
 
@@ -55,24 +76,35 @@ a:hover {
   margin: auto;
   display: flex;
   background-color: brown;
-  width: 50%;
-  height: 50%;
+  width: 400px;
+  height: 250px;
   gap: 10px;
 }
 
-.contact-one p {  
- margin-top: 10px;
+h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 5px;
 }
+
 
 .contact-two { 
   margin: auto; 
   margin-top: 5px;
   display: flex;
   background-color: brown;
-  width: 50%;
-  height: 50%;
+  width: 400px;
+  height: 250px;
   gap: 12px;
 }
+
+.contact-one  p {  
+  margin-top: 15px;
+ } 
+
+ .contact-two  p {  
+  margin-top: 15px;
+ } 
 
 .location {
   
