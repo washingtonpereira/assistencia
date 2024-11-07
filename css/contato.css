@@ -3,10 +3,24 @@
   padding: 0;
 }
 
+<<<<<<< HEAD
 nav {
   display: flex;
   justify-content: space-between;
   background-color: rgb(20, 17, 17);
+=======
+main{
+  display: flex;
+  background-color: rgb(52, 50, 50);
+  height: 60vw;
+ 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(23, 20, 20);
+>>>>>>> ff69a6c7572bc8320dbb247a995dc26314c4353c
   align-items: center;
 }
 
@@ -25,6 +39,7 @@ ul {
   padding: 15px;
   font-size: 20px;
   gap: 30px;
+<<<<<<< HEAD
 }
 
 a {
@@ -62,6 +77,125 @@ a:hover {
   height: 85%;
 }
 
+=======
+}
+
+ nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(49, 79, 228);
+  transition: 0.5s;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(49, 79, 228);
+}
+
+.contact-container {
+  position: absolute;
+  margin-top: 86px;
+  margin-left: 129px;
+  margin-right: 20px;
+  /* width: 400px;
+  height: 250px; */
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-container img {
+  margin-top: 15px;
+  
+}
+
+
+.register-contact {
+  position: static;
+  text-align: center;
+  background-color: aqua;
+  width: 520px;
+  height: 420px;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 470px; 
+  padding: 80px;
+}
+
+ .name , .e-mail , .coment {
+  margin-top: 25px;
+  width: 100%;
+  
+}
+
+.name , .e-mail {
+ height: 35px;
+  
+}
+
+
+.button {
+  margin-top: 15px;
+  width: 80px;
+  height: 35px;
+  border: 2px solid white;
+  background-color: aqua;
+  color: darkblue;
+}
+
+.button:hover{
+  background-color:  rgb(31, 195, 195);
+  transition: 0.3s;
+}
+
+.contact-one {  
+  margin: auto;
+  display: flex;
+  width: 400px;
+  height: 250px;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 48px;
+  /* margin-top: 3px; */
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+
+.contact-two { 
+  margin: auto; 
+  margin-top: 5px;
+  display: flex;
+  width: 400px;
+  height: 250px;
+  gap: 12px;
+}
+
+.contact-one  p {  
+  margin-top: 15px;
+ } 
+
+ .contact-two  p {  
+  margin-top: 15px;
+ } 
+
+.location {
+  
+  margin-top: 35px;
+  background-color: white;
+  width: 50%;
+  height: 85%;
+}
+
+>>>>>>> ff69a6c7572bc8320dbb247a995dc26314c4353c
 
 .phone {
   margin-top: 35px;
@@ -70,6 +204,7 @@ a:hover {
   height: 85%;
 }
 
+<<<<<<< HEAD
 .contact-two { 
   margin: auto; 
   margin-top: 5px;
@@ -79,30 +214,45 @@ a:hover {
   height: 50%;
   gap: 5px;
 }
+=======
+
+>>>>>>> ff69a6c7572bc8320dbb247a995dc26314c4353c
 
 
 .whatsapp {
   background-color: white;
   width: 50%;
+<<<<<<< HEAD
   height: 75%;
+=======
+  height: 85%;
+>>>>>>> ff69a6c7572bc8320dbb247a995dc26314c4353c
 }
 
 
 .email {
   background-color: white;
   width: 50%;
+<<<<<<< HEAD
   height: 75%;
+=======
+  height: 85%;
+>>>>>>> ff69a6c7572bc8320dbb247a995dc26314c4353c
 } 
 
 
 
+<<<<<<< HEAD
 .rodas {
   display: flex;
+=======
+footer {
+  display: inline-block;
+  text-align: center;
+>>>>>>> ff69a6c7572bc8320dbb247a995dc26314c4353c
   background-color: rgb(20, 17, 17);
-  margin-top: -10px;
-  align-items: center;
-  justify-content: center;
   font-size: 20px;
+<<<<<<< HEAD
   margin-top: 500px;
   border-radius: solid 3px;
   color: aliceblue;
@@ -117,6 +267,29 @@ a:hover {
 
 
 
+=======
+  margin-top: 0px;
+  width: 100%;
+  height: 160px;
+  color: aliceblue;
+}
+
+footer .rodas, .foote p {
+  margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> ff69a6c7572bc8320dbb247a995dc26314c4353c
 /* @media (max-width: 850px) {
   ul {
     display: flex;
